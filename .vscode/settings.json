@@ -1,8 +1,34 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+
     "code-runner.executorMap": {
         "python": "& \"$workspaceRoot\\.venv\\Scripts\\python.exe\" -u $fullFileName"
     },
-    "code-runner.runInTerminal": true
+
+    "code-runner.runInTerminal": true,
+
+    "workbench.colorCustomizations": {
+        "terminal.background": "#101418",
+        "terminal.foreground": "#D7E0E8",
+        "terminalCursor.foreground": "#FFFFFF",
+
+        "terminal.ansiBlack": "#1B2228",
+        "terminal.ansiRed": "#FF6B6B",
+        "terminal.ansiGreen": "#69DB7C",
+        "terminal.ansiYellow": "#FFD43B",
+        "terminal.ansiBlue": "#74C0FC",
+        "terminal.ansiMagenta": "#DA77F2",
+        "terminal.ansiCyan": "#66D9E8",
+        "terminal.ansiWhite": "#E9ECEF",
+
+        "terminal.ansiBrightBlack": "#868E96",
+        "terminal.ansiBrightRed": "#FF8787",
+        "terminal.ansiBrightGreen": "#8CE99A",
+        "terminal.ansiBrightYellow": "#FFE066",
+        "terminal.ansiBrightBlue": "#A5D8FF",
+        "terminal.ansiBrightMagenta": "#E599F7",
+        "terminal.ansiBrightCyan": "#99E9F2",
+        "terminal.ansiBrightWhite": "#FFFFFF"
+    }
 }
